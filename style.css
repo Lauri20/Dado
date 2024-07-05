@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #87ceeb;
+  font-family: Arial, sans-serif;
+}
+
+#game {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  background-color: #fff;
+  overflow: hidden;
+  border: 2px solid #000;
+}
+
+#player {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 40px;
+  height: 60px;
+  background-color: #f00;
+}
+
+#platform {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #000;
+}
